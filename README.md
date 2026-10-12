@@ -26,7 +26,7 @@ Purchase modifications between waves of enemies to gain new powers, bought using
 ### Good luck!
 
 ## Playtesting Notes
-- The newest enemy \(added in [V1.5](https://github.com/Wilberforce22/E.A.I.R.G/releases/tag/V1.5)\) often spawns far outside the map (FIXED AS OF V1.7)
+- The newest enemy \(added in [V1.5](https://github.com/Wilberforce22/E.A.I.R.G/releases/tag/V1.5)\) often spawns far outside the map (FIXED AS OF [V1.7](https://github.com/Wilberforce22/E.A.I.R.G/releases/tag/V1.7)\))
 - Difficulty doesn't scale well in the endgame \(if you reach wave 50, you're likely to reach wave 100\)
     - It also doesn't scale well at the start (gets quite hard quickly)
 
