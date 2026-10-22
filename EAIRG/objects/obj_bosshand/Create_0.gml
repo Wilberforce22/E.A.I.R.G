@@ -1,0 +1,11 @@
+enemy = instance_nearest(x,y,obj_enemy)
+speed = 1
+xvel = 0
+yvel = 0
+launch = 0
+timer = random(10)
+image_speed = 0
+timer2 = 30
+hp = enemy.hp/4
+dmgtimer = 0
+damaging = 0
