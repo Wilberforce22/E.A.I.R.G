@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"musicthing",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":77.142494,
+  "exportDir":"",
+  "name":"musicthing",
+  "parent":{
+    "name":"audio",
+    "path":"folders/assets/audio.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"musicthing.wav",
+  "volume":1.0,
+}
