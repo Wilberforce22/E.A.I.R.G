@@ -9,7 +9,7 @@ widesquish = 0.4
 heightsquish = -0.2
 fadeplus = random_range(0.05,0.5)
 image_alpha = 0
-type = 2
+//type = 2
 if obj_settings.boss = 1
 type = 10
 {
@@ -95,8 +95,8 @@ if type == 10
 	timer = 10
 	obj_settings.enemies -= 10
 	sprite_index = bossenemy_finished
-hp = (60+(obj_settings.difficulty*10))*20
-dmg = 7+obj_settings.difficulty/1.1
+hp = ((60+(obj_settings.difficulty*30))*10)
+dmg = 7+obj_settings.difficulty/1.1 - 8
 cooldown = random_range(40,90)
 repeat 2
 with instance_create_depth(x,y,-999,obj_bosshand)

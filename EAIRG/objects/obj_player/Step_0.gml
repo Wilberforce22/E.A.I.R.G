@@ -220,16 +220,16 @@ if playerhp <= playermaxhp/2
 if playerhp <= playermaxhp/4
 {
 	obj_settings.mult += 10
-playerhp -= (drainamnt+(obj_settings.wave/200))/2
+playerhp -= (drainamnt+(obj_settings.wave/300))/2
 }
 else
 {
 	obj_settings.mult += 5
-playerhp -= (drainamnt+(obj_settings.wave/150))/1.5
+playerhp -= (drainamnt+(obj_settings.wave/250))/1.5
 }
 else
 {
-playerhp -= drainamnt+(obj_settings.wave/75)/1.05
+playerhp -= drainamnt+(obj_settings.wave/200)/1.05
 }
 }
 else

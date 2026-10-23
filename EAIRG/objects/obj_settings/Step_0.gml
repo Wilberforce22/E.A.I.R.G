@@ -1,7 +1,9 @@
 if controller == false
 button = -1
 shake_remain = lerp(shake_remain,0,0.4)
-zoom = lerp(zoom,0,0.1)
+zoom = (lerp(zoom,0,0.1))
+if zoom > 100
+zoom = 100
 mult = min(lerp(mult,1,0.4),1.5*shaderamnt)+extramult*(shaderamnt)
 extramult = lerp(extramult,0,0.2*shaderamnt)
 if gamepad_is_connected(0)
